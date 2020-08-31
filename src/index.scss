@@ -1,3 +1,5 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .5s aese;
+  strong {
+    margin-right: 15px;
+  }
+  .btn-outline-danger {
+    border-radius: 20px;
+  }
+  &:hover {
+    background: rgb(241, 241, 241)
+  }
 }

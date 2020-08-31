@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.brand-link {
+  color: #ffffff;
+  &:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+}
