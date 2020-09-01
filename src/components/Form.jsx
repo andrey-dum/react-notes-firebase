@@ -11,7 +11,7 @@ export const Form = () => {
         event.preventDefault()
 
         if (value.trim()) {
-            alert.show(value, 'success')
+            alert.show('Заметка была создана', 'success')
             setValue('')
         } else {
             alert.show('Введите название!')
